@@ -17,13 +17,6 @@ require 'main'
 require 'byebug'
 require_relative '../lib/main'
 
-# если тесты работают на сервесе Travis CI, то данные необходимо будет
-# отправить на сервес codecov
-if ENV['CI'] == 'true'
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
-end
-
 Dir[File.expand_path(File.join(File.dirname(__FILE__), 'support', '**', '*.rb'))].each { |f| require f }
 
 RSpec.configure do |config|

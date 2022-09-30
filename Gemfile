@@ -9,7 +9,6 @@ gem 'rake', '~> 13.0'
 
 group :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'codecov', require: false
   gem 'dotenv', '~> 2.7'
   gem 'rspec', '~> 3.1'
   gem 'rubocop', '~> 1.36'
