@@ -4,7 +4,7 @@ require_relative 'main'
 
 # Main MaxAmount module
 module MaxAmount
-  def self.result(custom_string = nil)
-    MaxAmount::Cli.call(custom_string: custom_string)
+  def self.result(user_string = nil)
+    MaxAmount::Cli.call(user_string: user_string)
   end
 end

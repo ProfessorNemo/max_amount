@@ -4,7 +4,7 @@ module MaxAmount
   module Cli
     extend MaxAmount::Options
 
-    def self.call(custom_string:)
+    def self.call(user_string:)
       options = MaxAmount::Options.ask
 
       case options[:m]
@@ -14,7 +14,7 @@ module MaxAmount
       when '2'
         str = SecureRandom.hex(options[:l].to_i)
       when '3'
-        str = custom_string
+        str = user_string
       end
 
       params = {

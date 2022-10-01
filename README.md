@@ -1,33 +1,80 @@
-# MaxAmount
+# max_amount
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/max_amount`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Скрипт выполняется следующее:
+* читает из входящего потока текстовые данные;
+* по завершении ввода выводит n самых больших целых чисел, встретившихся в
+полученных текстовых данных.
+Дополнительные сведения:
+* числом считается любая непрерывная последовательность цифр в тексте;
+* чисел длиннее 1000 цифр во входных данных нет;
+* числа n,l и m - консольные параметры;
+* код покрыт тестами;
+* код оформлен в виде гема.
 
-TODO: Delete this and the text above, and describe your gem
+## Установка:
 
-## Installation
+Добавьте
 
-Install the gem and add to the application's Gemfile by executing:
+``` rb
+gem 'max_amount'
+```
 
-    $ bundle add max_amount
+И сделайте
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+    bundle
 
-    $ gem install max_amount
+Или сделайте
 
-## Usage
+    gem install max_amount
 
-TODO: Write usage instructions here
+## Использование:
 
-## Development
+``` rb
+require 'max_amount'
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+user_string = '24b6be4d91faa7d3469b9a0cc17d1d5267d21c5f8653ba4f70e3ef007'
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+user_string = nil if user_string.nil?
 
-## Contributing
+$stdout.print "\n\n== Результат: ==\n\n"
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ProfessorNemo/max_amount.
+puts MaxAmount.result(user_string: user_string)
+```
 
-## License
+## Запуск:
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+``` rb
+ruby name_programm.rb --h
+
+Результат:
+
+Чтение из входящего потока текстовых данных:
+        --h                          Справка
+        --n Nmax                     n самых больших целых чисел (n > 0)
+        --l length                   длина строки 
+        --m choice                   тестовая строка (m=1) / случайно сгенерированная строка (m=2) / пользовательская строка (m=3)
+
+
+$ ruby name_programm.rb --n 10 --l 300 --m 3
+
+Результат:
+
+8653
+5267
+3469
+91
+70
+24
+21
+17
+9
+7
+```
+
+## Помочь в разработке
+
+Шлите ваши пулреквесты в https://github.com/ProfessorNemo/max_amount.
+
+## Лицензия
+
+[MIT License](https://opensource.org/licenses/MIT)
