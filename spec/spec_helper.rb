@@ -12,7 +12,7 @@ end
 # $ xdg-open coverage/index.html
 # "$ echo coverage >> .gitignore" - чтобы git не отслеживал рез-ты покрытия
 
-require_relative '../lib/max_amount'
+require_relative '../lib/main'
 
 Dir[File.expand_path(File.join(File.dirname(__FILE__), 'support', '**', '*.rb'))].each { |f| require f }
 

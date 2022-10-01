@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module MaxAmount
-  module CLI
+  module Cli
     extend MaxAmount::Options
 
     def self.call(custom_string:)
