@@ -1,6 +1,13 @@
 # frozen_string_literal: true
 
-require_relative 'main'
+require_relative 'max_amount/version'
+require 'optparse'
+require 'securerandom'
+require 'dotenv/load'
+require_relative 'max_amount/options'
+require_relative 'max_amount/cli'
+require_relative 'max_amount/errors'
+require_relative 'max_amount/seeker'
 
 # Main MaxAmount module
 module MaxAmount
