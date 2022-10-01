@@ -7,15 +7,12 @@ require 'simplecov'
 # Запуск измерителя покрытия кода тестами с игнорированием некоторых директорий:after =>
 SimpleCov.start do
   add_filter 'spec/'
-  add_filter '.github/'
 end
 
 # $ xdg-open coverage/index.html
 # "$ echo coverage >> .gitignore" - чтобы git не отслеживал рез-ты покрытия
 
-require 'main'
-require 'byebug'
-require_relative '../lib/main'
+require_relative '../lib/max_amount'
 
 Dir[File.expand_path(File.join(File.dirname(__FILE__), 'support', '**', '*.rb'))].each { |f| require f }
 
