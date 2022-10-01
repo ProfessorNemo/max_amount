@@ -8,4 +8,3 @@ module MaxAmount
     MaxAmount::Cli.call(custom_string: custom_string)
   end
 end
-
