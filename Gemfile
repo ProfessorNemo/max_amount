@@ -11,9 +11,10 @@ gem 'fileutils'
 
 group :test do
   gem 'byebug'
+  gem 'codecov', '~> 0.4'
   gem 'rspec', '~> 3.1'
   gem 'rubocop', '~> 1.36'
   gem 'rubocop-performance', '~> 1.15'
   gem 'rubocop-rspec', '~> 2.13'
-  gem 'simplecov', require: false
+  gem 'simplecov', '~> 0.21'
 end

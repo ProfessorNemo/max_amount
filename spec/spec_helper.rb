@@ -4,9 +4,15 @@ require 'dotenv/load'
 require 'simplecov'
 
 # SimpleCov.start
-# Запуск измерителя покрытия кода тестами с игнорированием некоторых директорий:after =>
+# Запуск измерителя покрытия кода тестами с игнорированием некоторых директорий:
 SimpleCov.start do
   add_filter 'spec/'
+end
+
+# Если тесты работают на Travis CI, то данные затем отрпавить на сервис "Codecov"
+if ENV['CI'] == 'true'
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
 # $ xdg-open coverage/index.html
