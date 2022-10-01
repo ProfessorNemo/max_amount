@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'byebug'
 require_relative 'main'
 
 # Main MaxAmount module
@@ -10,7 +11,7 @@ module MaxAmount
 end
 
 # путь к файлу с пользовательской строкой
-# path = File.expand_path('./max_amount/data/test_data.txt', __dir__)
+# path = File.expand_path('../test/test_data.txt', __dir__)
 
 # если файла нет, то присваиваем nil
 # custom_string = File.exist?(path) ? File.read(path) : nil
