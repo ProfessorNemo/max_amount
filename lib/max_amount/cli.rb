@@ -9,7 +9,7 @@ module MaxAmount
 
       case options[:m]
       when '1'
-        str = File.read('../test/test_data.txt')
+        str = File.read File.expand_path('../test/test_data.txt', __dir__).sub('/lib', '')
       when '2'
         str = SecureRandom.hex(options[:l].to_i)
       when '3'
