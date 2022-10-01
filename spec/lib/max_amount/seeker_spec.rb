@@ -3,7 +3,7 @@
 RSpec.describe MaxAmount::Seeker do
   subject(:seek) { described_class }
 
-  let(:test) { ENV.fetch('TEST_STRING') }
+  let(:test) { File.read('./spec/support/fixtures/test_data.txt') }
 
   describe '#errors' do
     context 'when nmax=0' do

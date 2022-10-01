@@ -7,9 +7,10 @@ gemspec
 
 gem 'rake', '~> 13.0'
 
+gem 'fileutils'
+
 group :test do
-  gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'dotenv', '~> 2.7'
+  gem 'byebug'
   gem 'rspec', '~> 3.1'
   gem 'rubocop', '~> 1.36'
   gem 'rubocop-performance', '~> 1.15'

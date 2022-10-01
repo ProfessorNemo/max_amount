@@ -9,7 +9,7 @@ module MaxAmount
 
       case options[:m]
       when '1'
-        str = Dotenv.load('../.env')['TEST_STRING']
+        str = File.read('./max_amount/data/test_data.txt')
       when '2'
         str = SecureRandom.hex(options[:l].to_i)
       when '3'

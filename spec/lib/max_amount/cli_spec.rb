@@ -3,10 +3,14 @@
 RSpec.describe MaxAmount::Seeker do
   subject(:seek) { described_class }
 
-  let(:test) { ENV.fetch('TEST_STRING') }
+  let(:test) { File.read('./spec/support/fixtures/test_data.txt') }
   let(:stream) { generate_sample_data }
   let(:params) { { text: test, nmax: 50 } }
   let(:obj) { seek.new(params).check_errors.search }
+
+  after do
+    remove_config
+  end
 
   describe '#initialize' do
     it 'sets a source of chars' do
@@ -26,7 +30,7 @@ RSpec.describe MaxAmount::Seeker do
 
   context 'when test array data is correct' do
     it 'return 6 maximum integers' do
-      expect(obj).to include(343, 354, 359, 407, 513, 547)
+      expect(obj).to include(806, 96, 94, 80, 73, 68, 50, 47, 46, 44)
       expect(obj).not_to include(100)
     end
 
