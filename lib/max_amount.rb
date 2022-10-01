@@ -12,6 +12,8 @@ require_relative 'max_amount/extract_integer'
 
 # Main MaxAmount module
 module MaxAmount
+  module CLI
+  end
 end
 
 # путь к файлу с пользовательской строкой
