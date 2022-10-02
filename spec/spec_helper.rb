@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-require 'dotenv/load'
 require 'simplecov'
 
 # SimpleCov.start
 # Запуск измерителя покрытия кода тестами с игнорированием некоторых директорий:
 SimpleCov.start do
   add_filter 'spec/'
+  add_filter '.github/'
 end
 
-# Если тесты работают на Travis CI, то данные затем отрпавить на сервис "Codecov"
+# Если тесты работают на "Continuous Integration", то данные затем отрпавить на сервис "Codecov"
 if ENV['CI'] == 'true'
   require 'codecov'
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
