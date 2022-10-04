@@ -1,9 +1,10 @@
-# max_amount
+# `max_amount`
 
 ![Gem](https://img.shields.io/gem/v/max_amount)
 ![CI](https://github.com/ProfessorNemo/max_amount/actions/workflows/ci.yml/badge.svg)
 [![Test Coverage](https://codecov.io/gh/ProfessorNemo/max_amount/graph/badge.svg)](https://codecov.io/gh/ProfessorNemo/max_amount)
 ![Downloads total](https://img.shields.io/gem/dt/max_amount)
+###### Язык написания - Ruby
 
 ## Скрипт выполняется следующее:
 * читает из входящего потока текстовые данные;
