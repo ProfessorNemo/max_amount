@@ -76,10 +76,10 @@ $ ruby name_programm.rb --n 10 --l 300 --m 3
 7
 ```
 
-## Помочь в разработке
+## Помочь в разработке:
 
 Шлите ваши пулреквесты в https://github.com/ProfessorNemo/max_amount.
 
-## Лицензия
+## Лицензия:
 
 [MIT License](https://opensource.org/licenses/MIT)
