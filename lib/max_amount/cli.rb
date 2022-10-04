@@ -2,8 +2,6 @@
 
 module MaxAmount
   module Cli
-    extend MaxAmount::Options
-
     def self.call(user_string:)
       options = MaxAmount::Options.ask
 
