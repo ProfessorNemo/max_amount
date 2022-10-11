@@ -1,14 +1,19 @@
 # `max_amount`
 
 [![Gem Version](https://img.shields.io/gem/dt/max_amount.svg)][gem]
-![Gem Version](https://img.shields.io/gem/v/max_amount.svg)
-![Build Status](https://github.com/ProfessorNemo/max_amount/actions/workflows/ci.yml/badge.svg)
+[![Build Status](https://github.com/ProfessorNemo/max_amount/actions/workflows/ci/badge.svg)][actions]
 [![Test Coverage](https://codecov.io/gh/ProfessorNemo/max_amount/graph/badge.svg)](https://codecov.io/gh/ProfessorNemo/max_amount)
 
 [gem]: https://rubygems.org/gems/max_amount
 [actions]: https://github.com/ProfessorNemo/max_amount/actions
 [coveralls]: https://coveralls.io/r/ProfessorNemo/max_amount
 [inch]: https://inch-ci.org/github/ProfessorNemo/max_amount
+
+
+
+
+
+
 
 ###### Язык написания - Ruby
 
