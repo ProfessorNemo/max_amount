@@ -5,7 +5,10 @@
 [![Test Coverage](https://codecov.io/gh/ProfessorNemo/max_amount/graph/badge.svg)](https://codecov.io/gh/ProfessorNemo/max_amount)
 ![Downloads total](https://img.shields.io/gem/dt/max_amount)
 
-
+[gem]: https://rubygems.org/gems/max_amount
+[actions]: https://github.com/ProfessorNemo/max_amount/actions
+[coveralls]: https://coveralls.io/r/ProfessorNemo/max_amount
+[inch]: https://inch-ci.org/github/ProfessorNemo/max_amount
 
 ###### Язык написания - Ruby
 
