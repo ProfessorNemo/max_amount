@@ -5,19 +5,10 @@
 [![Build Status](https://github.com/ProfessorNemo/max_amount/actions/workflows/ci.yml/badge.svg)][actions]
 [![Test Coverage](https://codecov.io/gh/ProfessorNemo/max_amount/graph/badge.svg)](https://codecov.io/gh/ProfessorNemo/max_amount)
 
-
 [gem]: https://rubygems.org/gems/max_amount
 [gem]: https://rubygems.org/gems/max_amount
 [actions]: https://github.com/ProfessorNemo/max_amount/actions
 [coveralls]: https://coveralls.io/r/ProfessorNemo/max_amount
-
-
-
-
-
-
-
-
 ###### Язык написания - Ruby
 
 ## Скрипт выполняется следующее:
