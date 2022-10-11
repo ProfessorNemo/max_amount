@@ -7,7 +7,7 @@
 [gem]: https://rubygems.org/gems/max_amount
 [actions]: https://github.com/ProfessorNemo/max_amount/actions
 [coveralls]: https://coveralls.io/r/ProfessorNemo/max_amount
-[inch]: https://inch-ci.org/github/ProfessorNemo/max_amount
+
 
 
 
