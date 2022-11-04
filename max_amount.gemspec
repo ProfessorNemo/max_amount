@@ -5,7 +5,7 @@ require_relative 'lib/max_amount/version'
 Gem::Specification.new do |spec|
   spec.name = 'max_amount'
   spec.version = MaxAmount::VERSION
-  spec.authors = ['Gleb V. Zhegilin']
+  spec.authors = ['Gleb V. Zhegulin']
   spec.email = ['gleboceanborn@gmail.com']
   spec.summary = 'Reading text data and outputting the n largest integers encountered in the received text data.'
   spec.description = 'Reading text data and outputting the n largest integers encountered in the received text data.
