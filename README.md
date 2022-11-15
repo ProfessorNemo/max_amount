@@ -4,6 +4,7 @@
 [![Gem](https://img.shields.io/gem/v/max_amount)][gem]
 [![Build Status](https://github.com/ProfessorNemo/max_amount/actions/workflows/ci.yml/badge.svg)][actions]
 [![Test Coverage](https://codecov.io/gh/ProfessorNemo/max_amount/graph/badge.svg)](https://codecov.io/gh/ProfessorNemo/max_amount)
+[![Depfu](https://img.shields.io/depfu/ProfessorNemo/max_amount?style=flat-square)](https://depfu.com/repos/github/ProfessorNemo/max_amount)
 
 [gem]: https://rubygems.org/gems/max_amount
 [gem]: https://rubygems.org/gems/max_amount
