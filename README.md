@@ -53,7 +53,7 @@ puts MaxAmount.result(user_string: user_string)
 
 ## Запуск:
 
-``` rb
+``` 
 $ ruby name_programm.rb --h
 
 Результат:
