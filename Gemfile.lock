@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    max_amount (1.4.0)
+    max_amount (1.4.1)
       optparse
       securerandom
 
@@ -73,10 +73,10 @@ DEPENDENCIES
   fileutils
   max_amount!
   rake (~> 13.0)
-  rspec (~> 3.1)
-  rubocop (~> 1.0)
-  rubocop-performance (~> 1.0)
-  rubocop-rspec (~> 2.0)
+  rspec (~> 3)
+  rubocop (~> 1)
+  rubocop-performance (~> 1)
+  rubocop-rspec (~> 2)
   simplecov (~> 0.21)
 
 BUNDLED WITH
