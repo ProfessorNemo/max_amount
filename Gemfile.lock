@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    max_amount (1.3.9)
+    max_amount (1.4.0)
       optparse
       securerandom
 
