@@ -14,7 +14,7 @@ GEM
       simplecov (>= 0.15, < 0.22)
     diff-lcs (1.5.0)
     docile (1.4.0)
-    fileutils (1.7.0)
+    fileutils (1.7.1)
     json (2.6.3)
     optparse (0.3.1)
     parallel (1.22.1)
